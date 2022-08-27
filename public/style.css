@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap');
+*{
+
+   font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV */
+body {
+    scroll-behavior: smooth;
+    background-color: antiquewhite;
+}
+
+.header {
+    width: 100%;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100% auto;
+    height: 100vh;
+    background-position: center;
+}
+
+/* NAV */
+.one {
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+}
+
+.btm {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+}
+.btm:hover{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+
+.our {
+    width: 100%;
+    background-color: rgb(2, 36, 36);;
+}
+
+.text {
+    color: white;
+
+}
+
+/* footer */
+.ipuut {
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid black !important;
+}
+
+.bttn{
+    background: black !important;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+}
+.bttn:hover{
+    background-color: transparent !important;
+}
+
+.anker {
+    text-decoration: none;
+    color: white !important;
+    margin: 15px 5px;
+}
+.on{
+    color: white;
+}
+.anker:hover {
+    color: rgb(56, 190, 252) !important;
+}
+
+.font #face {
+    color: rgb(67, 67, 249) !important;
+}
+
+.font #wats {
+    color: rgb(30, 255, 0) !important;
+}
+
+.font #insta {
+    color: rgb(233, 73, 105) !important;
+}
+
+.font #face:hover {
+    color: black !important;
+    font-size: xx-large;
+}
+
+.font #wats:hover {
+    color: black !important;
+    font-size: xx-large;
+}
+
+.font #insta:hover {
+    color: black !important;
+    font-size: xx-large;
+}
+
+footer {
+    background-color: rgb(2, 36, 36);
+}
+.nav-link{
+    color: black;
+    font-weight: bold;
+}
+.almuniom{
+    width: 100%;
+}
+.about1{
+    background-image: url(images/16.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.back{
+    background-image: url(https://img.freepik.com/free-vector/illustration-storefront-with-steps-entrance-door-glass-illuminated-showcase_1441-2466.jpg?w=996&t=st=1660909981~exp=1660910581~hmac=008d6a8d64cbaaae59b0730bc594fdfef44b98a91d3e2a234e26903a3d2accf5);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+.dot{
+    background-image: url(images/34.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.cell{
+    width: 33%;
+    height: 350px;
+    margin: 0 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.cell img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+@media (max-width:500px){
+    .cell{
+        width: 100%;
+        padding: 20px;
+    } 
+    .cell img{
+       width: 100%;
+       padding: 5px;
+    }
+}
